@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activities.AboutUsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="Roma Jeans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="325dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Esta es una aplicacion que permite ver los productos de la tienda a todo los usuarios."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="180dp"
+            android:layout_height="375dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/informacion" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textColor="#c45944"
+            android:id="@+id/ButtonTest"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="140dp"
+            android:background="@drawable/bk_boton_plano"
+          />
+
+
+    </LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>
